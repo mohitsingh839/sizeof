@@ -685,7 +685,7 @@ Public License instead of this License.  But first, please read
 
 """
 
-## Importing all the neccessary package ##
+## Importing all the neccessary package/laibraries ##
 
 import os
 import sys
@@ -753,7 +753,8 @@ def directory_size(args):
         dir_size_fin=dir_size/1024/1024/1024/1024
         print(f"Directory \"{dir_path}\" : {round(dir_size_fin, 3)} tb")
 
-## MAIN FUNCTION ##
+        
+## THIS IS MAIN FUNCTION ##
 
 def main():
 
